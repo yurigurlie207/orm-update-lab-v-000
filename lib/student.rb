@@ -35,6 +35,7 @@ class Student
   def save
     #save as new instance only if there isn't already an ID
     if self.id
+      self.update
     else
     end
   end
