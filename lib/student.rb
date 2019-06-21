@@ -37,6 +37,7 @@ class Student
     if self.id
       self.update
     else
+      
     end
   end
 
@@ -46,7 +47,7 @@ class Student
         SET name = ?, grade = ?
         WHERE id = ?
       SQL
-      
+
       DB[:conn].execute(sql, self.name, self.grade, self.id)
     end
 end
