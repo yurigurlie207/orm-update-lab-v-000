@@ -63,6 +63,7 @@ class Student
   end
 
   def new_from_db(row)
+    
   end
 
 end
