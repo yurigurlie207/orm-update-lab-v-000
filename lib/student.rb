@@ -64,4 +64,5 @@ class Student
 
   def new_from_db
   end
+  
 end
