@@ -32,7 +32,11 @@ class Student
     DB[:conn].execute(sql)
   end
 
-  def self.save
+  def save
+    #save as new instance only if there isn't already an ID
+    if self.id
+    else
+    end
   end
-  
+
 end
