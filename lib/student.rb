@@ -34,4 +34,5 @@ class Student
 
   def self.save
   end
+  
 end
